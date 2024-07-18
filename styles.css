@@ -1,0 +1,115 @@
+/* debugging */
+/* div, nav {
+    border: 1px solid black;
+} */
+
+/* nav buttons */
+
+
+/* general */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, h1, p {
+    margin: 0;
+}
+
+p, h1, h2, a {
+    color: #866857;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* nav */
+.title-and-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 10px 100px;
+    width: 100%;
+
+    /* makes the nav stay at the top */
+    position: fixed;
+    top: 0;
+}
+
+.title-and-nav, .title-and-nav * {
+    background-color: #866857;
+    color: #fefaf7;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    margin: 10px 20px 10px 20px;
+}
+
+a {
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    padding: 5px;
+    margin: 0;
+}
+
+/* body general */
+.body {
+    margin-top: 70px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 200px 40px 200px;
+}
+
+p {
+    font-size: 22px;
+}
+
+
+/* home */
+#main-img {
+    object-fit: contain;
+    width: 500px;
+    height: 500px;;
+    margin: 0px auto 0px auto;
+}
+
+#main-img * {
+    background-color: #fefaf7;
+}
+
+
+/* problem */
+#problem {
+    background-color: #BACC80;
+    padding-top: 0px;
+    /* override original padding bc the image is long */
+}
+
+#problem * {
+    color: #866857;
+}
+
+#problem-text {
+    margin-top: 30px;
+}
