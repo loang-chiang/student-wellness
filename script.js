@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('a').forEach(anchor => {
+    document.querySelectorAll('.nav a').forEach(anchor => {
         // moves the anchor to the desired section taking into account the nav
         anchor.onclick = function(e) {
             e.preventDefault()
