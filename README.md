@@ -1,6 +1,6 @@
-# Student Wellness!
+# Student Wellness
 
-### [Live Preview](https://loang-chiang.github.io/student-wellness/)
+### [Live Preview!](https://loang-chiang.github.io/student-wellness/)
 
 ## Overview
 Student Wellness is a website meant to raise awareness regarding the mental health of college students. It includes easily digestible data visualizations to showcase real information about the situations of actual students, as well a list of resources to help you if you're also going through similar struggles.
